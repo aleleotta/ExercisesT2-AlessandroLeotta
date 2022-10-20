@@ -12,6 +12,8 @@ public class Exercise3 {
 		animals = sc.nextInt();
 		System.out.println("Introduce the food kilograms that are consumed by the animals: ");
 		foodKg = sc.nextDouble();
+		System.out.println("Introduce the food units that are needed to feed all animals: ");
+		foodUnits = sc.nextDouble();
 		result = foodKg / animals;
 		if (foodKg >= animals) {
 			System.out.println("There is enough food for all animals. Amount of food per animal: " + result + "kg");
