@@ -14,72 +14,95 @@ public class Exercise2 {
 			switch (dni % 23) {
 				case 0 -> {
 					letter = 'T';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 1 -> {
 					letter = 'R';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 2 -> {
 					letter = 'W';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 3 -> {
 					letter = 'A';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 4 -> {
 					letter = 'G';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 5 -> {
-					letter = 'T';
+					letter = 'M';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 6 -> {
-					letter = 'M';
+					letter = 'Y';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 7 -> {
-					letter = 'Y';
+					letter = 'F';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 8 -> {
-					letter = 'T';
+					letter = 'P';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 9 -> {
-					letter = 'T';
+					letter = 'D';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 10 -> {
-					letter = 'T';
+					letter = 'X';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 11 -> {
-					letter = 'T';
+					letter = 'B';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 12 -> {
-					letter = 'T';
+					letter = 'N';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 13 -> {
-					letter = 'T';
+					letter = 'J';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 14 -> {
-					letter = 'T';
+					letter = 'Z';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 15 -> {
-					letter = 'T';
+					letter = 'S';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 16 -> {
-					letter = 'T';
+					letter = 'Q';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 17 -> {
-					letter = 'T';
+					letter = 'V';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 18 -> {
-					letter = 'T';
+					letter = 'H';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 19 -> {
-					letter = 'T';
+					letter = 'L';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 20 -> {
-					letter = 'T';
+					letter = 'C';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 21 -> {
-					letter = 'T';
+					letter = 'K';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				case 22 -> {
-					letter = 'T';
+					letter = 'E';
+					System.out.println("Your DNI is: " + dni + "-" + letter);
 				}
 				default -> {
 					System.out.println("Invalid.");
